@@ -12,7 +12,7 @@ import { Validators } from '@angular/forms';
 export class AppComponent {
   title = 'Angular reactive form';
   loginForm = new FormGroup({
-    user: new FormControl('',[Validators.required]),
+    user: new FormControl('',[Validators.required,Validators.email]),
     password: new FormControl('',[Validators.required]),
   })
 
