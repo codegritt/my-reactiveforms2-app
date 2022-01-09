@@ -22,4 +22,8 @@ export class AppComponent {
   get user(){
     return this.loginForm.get('user');
   }
+
+  get password(){
+    return this.loginForm.get('upassword');
+  }
 }
