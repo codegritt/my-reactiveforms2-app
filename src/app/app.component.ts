@@ -15,6 +15,6 @@ export class AppComponent {
   })
 
   LoginUser(){
-    console.warn(this.loginForm);
+    console.warn(this.loginForm.value);
   }
 }
