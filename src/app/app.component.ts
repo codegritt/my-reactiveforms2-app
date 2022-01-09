@@ -13,4 +13,8 @@ export class AppComponent {
     user: new FormControl(''),
     password: new FormControl(''),
   })
+
+  LoginUser(){
+    console.warn(this.loginForm);
+  }
 }
