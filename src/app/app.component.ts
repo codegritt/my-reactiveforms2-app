@@ -13,3 +13,4 @@ export class AppComponent {
     user: new FormControl(''),
     password: new FormControl(''),
   })
+}
